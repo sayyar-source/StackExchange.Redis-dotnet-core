@@ -2,7 +2,9 @@
 Redis Hash Datatype – Operations
 
 HSET: Sets the value of a field for a key O(1).
+
 HGET: Gets the value of a field for a key O(1).
+
 HLEN: Gets the number of fields for the key O(1).
 HMGET: Gets the values for the fields for a key O(N), where N is the number of fields and O (1) if N is small.
 HMSET: Sets multiple values for respective fields for a key O(N), where N is the number of fields and O (1) if N is small.
